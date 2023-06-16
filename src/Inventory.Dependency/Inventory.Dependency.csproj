@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Student.Application\Student.Application.csproj" />
+    <ProjectReference Include="..\Student.Persistence\Student.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
